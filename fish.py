@@ -132,4 +132,4 @@ def check_new_data_from_json(model, df_encoded, json_file="fish_data.json"):
     # TODO: Return the prediction (1 for Healthy, 0 for Diseased)
     pass
     # Return None to ensure test fails until properly implemented
-    return int()
+    return -1
