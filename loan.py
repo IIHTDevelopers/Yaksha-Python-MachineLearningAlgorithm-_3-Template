@@ -35,10 +35,9 @@ def explore_home_ownership(df):
     """
     # TODO: Check if 'home_ownership' column exists in the DataFrame
     # TODO: Count records where home_ownership is 'RENT'
-    # TODO: Print the count with appropriate message
     # TODO: Return the count
     pass
-    return None  # Return None to ensure test fails until properly implemented
+    return count
 
 # Function 3: Encode and scale features
 def prepare_data(df):
@@ -70,10 +69,9 @@ def sigmoid_demo():
     """
     # TODO: Set z to 1.5
     # TODO: Calculate sigmoid using the formula: 1 / (1 + np.exp(-z))
-    # TODO: Print the result with appropriate message
     # TODO: Return the sigmoid value
     pass
-    return None  # Return None to ensure test fails until properly implemented
+    return sigmoid_demo()
 
 # Function 5: Train and evaluate logistic regression model
 def train_and_evaluate(X_train, y_train, X_test, y_test, path="loan_model.pkl"):
@@ -99,5 +97,4 @@ def train_and_evaluate(X_train, y_train, X_test, y_test, path="loan_model.pkl"):
     # TODO: Print sample predictions
     # TODO: Return dictionary with model, predictions, and probabilities
     pass
-    # Return None to ensure test fails until properly implemented
     return None
