@@ -29,8 +29,9 @@ def perform_eda_on_age(df):
     """
     # TODO: Check if 'Age' column exists in the DataFrame
     # TODO: Count fish with age > 1 year
-    # TODO: Print the count with appropriate message
-    pass count
+    # return count 
+    return count
+    pass 
 
 # 3. Preprocess data
 def preprocess_fish_data(df):
